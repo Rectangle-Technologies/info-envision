@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #567551
+    --primary-color: #435e45;
 }
 
 .top-bar {
@@ -9,12 +9,6 @@
     padding: 15px 0;
     font-weight: 600;
     font-size: 14px;
-}
-
-@media only screen and (max-width: 767px) {
-    .topbar-list {
-        text-align: center;
-    }
 }
 
 .social-icon-link {
@@ -27,5 +21,40 @@
 }
 
 .header-icon {
+    color: var(--primary-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    .navbar-brand {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 949px) {
+    .navbar-brand {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .navbar-brand {
+        width: 35%;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+    }
+}
+
+.nav-item {
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.nav-item:hover {
+    color: var(--primary-color);
+}
+
+.nav-item.active {
     color: var(--primary-color);
 }
