@@ -2,6 +2,12 @@
     --primary-color: #435e45;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .top-bar {
     background: #f2f2f2;
     color: #000000;
@@ -63,12 +69,12 @@ h2.widget-title {
     font-size: 18px;
     font-weight: 700;
     color: #fefefe;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .footer-area {
     background-color: var(--primary-color);
-    padding: 30px 15px;
+    padding: 30px 10px;
 }
 
 .widget p {
