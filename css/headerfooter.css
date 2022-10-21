@@ -38,11 +38,19 @@ body {
     .navbar-brand {
         width: 70%;
     }
+
+    .copryright {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 949px) {
     .navbar-brand {
         width: 70%;
+    }
+
+    .copryright {
+        margin-bottom: 10px;
     }
 }
 
@@ -54,6 +62,7 @@ body {
     .nav-item {
         margin-right: 20px;
     }
+
 }
 
 .nav-item {
@@ -65,7 +74,7 @@ body {
     color: var(--primary-color);
 }
 
-.nav-item.active {
+.navbar .navbar-nav li.active>a {
     color: var(--primary-color);
 }
 
@@ -156,4 +165,8 @@ a {
     margin-bottom: 0;
     font-weight: 700;
     color: #ffa100;
+}
+
+.text-right {
+    text-align: right;
 }

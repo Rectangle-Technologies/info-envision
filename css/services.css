@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #435e45;
+}
+
+section.page-header-section {
+    height: 200px;
+    background-image: url(../img/page-header.jpg);
+    position: relative;
+}
+
+.paget-title {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .paget-title h2 {
+        font-size: 36px;
+    }
+
+    .single-services {
+        margin-bottom: 30px;
+    }
+}
+
+.paget-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+section.services-area.services-page.section-padding {
+    padding-bottom: 30px;
+}
+
+.section-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.single-services {
+    margin-bottom: 50px;
+}
