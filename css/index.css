@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #567551
+}
+
+.top-bar {
+    background: #f2f2f2;
+    color: #000000;
+    font-family: 'Oxygen', sans-serif;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 767px) {
+    .topbar-list {
+        text-align: center;
+    }
+}
+
+.social-icon-link {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.social-icon-link:hover {
+    color: var(--primary-color);
+}
+
+.header-icon {
+    color: var(--primary-color);
+}
