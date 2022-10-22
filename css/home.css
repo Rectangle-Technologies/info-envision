@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #435e45;
+}
+
+section.experience-section.section-padding {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+section.experience-section {
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .experience-content h1 {
+        font-size: 30px;
+    }
+}
+
+.experience-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.experience-content p {
+    font-size: 20px;
+    line-height: 26px;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.env-services {
+    margin: 20px 0px;
+}
+
+.env-services h2 {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.env-services p {
+    font-size: 20px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.img1 {
+    width: 80%;
+    margin: 20px auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    .img2 {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .install {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 949px) {
+    .img2 {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .install {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .img2 {
+        width: 120%;
+    }
+
+    .install {
+        display: flex;
+        justify-content: space-between;
+    }
+}
