@@ -19,6 +19,10 @@ section.page-header-section {
     color: var(--primary-color)
 }
 
+.history {
+    margin-top: 50px;
+}
+
 .leaders {
     margin-bottom: 50px;
 }
