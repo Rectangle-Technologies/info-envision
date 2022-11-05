@@ -21,6 +21,7 @@ section.page-header-section {
     font-size: 48px;
     font-weight: 700;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .leaders {
@@ -32,15 +33,59 @@ section.page-header-section {
     margin-bottom: 20px;
 }
 
+.mission-vision {
+    margin-bottom: 50px;
+}
+
+.mis-vis {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+    margin: 10px;
+}
+
+.mis-vis h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+.quality {
+    margin-bottom: 50px;
+}
+
+.quality ul li {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.quality ul {
+    list-style: none;
+}
+
+.quality ul li:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
 @media only screen and (min-width: 300px) and (max-width: 499px) {
     .section-title h2 {
         color: var(--primary-color);
         font-size: 25px;
         margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .section-content {
         font-size: 15px;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -49,14 +94,23 @@ section.page-header-section {
         color: var(--primary-color);
         font-size: 40px;
         margin-bottom: 40px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .section-content {
-        font-size: 20px;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
     }
 
     .single-leader {
         font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .mis-vis h2 {
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -65,13 +119,21 @@ section.page-header-section {
         color: var(--primary-color);
         font-size: 40px;
         margin-bottom: 40px;
+        font-family: 'Raleway', sans-serif;
     }
 
-    .section-content {
-        font-size: 20px;
+    .section-content p {
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .single-leader {
         font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .mis-vis h2 {
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 }

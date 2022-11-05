@@ -1,6 +1,6 @@
 :root {
     --primary-color: #435e45;
-    --secondary-color: #3ecf65;
+    --secondary-color: #198c3a;
 }
 
 section.experience-section.section-padding {
@@ -20,6 +20,7 @@ section.experience-section {
 
 .env-services {
     margin: 20px 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .about {
@@ -50,19 +51,22 @@ section.experience-section {
         font-weight: 700;
         color: #000000;
         margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
+        ;
     }
 
     .experience-content p {
         font-size: 14px;
         line-height: 26px;
         color: #404040;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .about h2 {
         color: var(--primary-color);
         text-align: center;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
+
         font-size: 25px;
         font-weight: 600;
     }
@@ -70,22 +74,25 @@ section.experience-section {
     .about p {
         font-size: 14px;
         margin: 15px 0px;
+        font-family: 'Raleway', sans-serif;
+
     }
 
     .section-title h2 {
         color: var(--primary-color);
         font-size: 25px;
         margin-bottom: 40px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption h2 {
         font-size: 25px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption p {
         font-size: 10px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -114,19 +121,20 @@ section.experience-section {
         font-weight: 700;
         color: #000000;
         margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .experience-content p {
         font-size: 18px;
         line-height: 26px;
         color: #404040;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .about h2 {
         color: var(--primary-color);
         text-align: center;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 30px;
         font-weight: 600;
     }
@@ -134,22 +142,24 @@ section.experience-section {
     .about p {
         font-size: 18px;
         margin: 15px 0px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .section-title h2 {
         color: var(--primary-color);
         font-size: 40px;
         margin-bottom: 50px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption h2 {
         font-size: 50px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption p {
         font-size: 20px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -173,19 +183,20 @@ section.experience-section {
         font-weight: 700;
         color: #000000;
         margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .experience-content p {
         font-size: 18px;
         line-height: 26px;
         color: #404040;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .about h2 {
         color: var(--primary-color);
         text-align: center;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 30px;
         font-weight: 600;
     }
@@ -193,22 +204,24 @@ section.experience-section {
     .about p {
         font-size: 18px;
         margin: 15px 0px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .section-title h2 {
         color: var(--primary-color);
         font-size: 40px;
         margin-bottom: 50px;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption h2 {
         font-size: 50px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .carousel-caption p {
         font-size: 20px;
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -258,6 +271,7 @@ section.experience-section {
 
 .truck-desc h3 {
     margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .btn {
