@@ -1,5 +1,6 @@
 :root {
     --primary-color: #435e45;
+    --secondary-color: #198c3a;
 }
 
 html,
@@ -169,4 +170,13 @@ a {
 
 .text-right {
     text-align: right;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
 }

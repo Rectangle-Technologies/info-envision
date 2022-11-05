@@ -1,18 +1,14 @@
 :root {
     --primary-color: #435e45;
-    --secondary-color: #3ecf65;
+    --secondary-color: #198c3a;
 }
 
 section.page-header-section {
-    height: 200px;
-    background-image: url(../images/wall.jpg);
-    position: relative;
     margin-bottom: 50px;
 }
 
 .paget-title {
     display: flex;
-    height: 200px;
     flex-direction: column;
     justify-content: center;
 }
@@ -20,8 +16,7 @@ section.page-header-section {
 .paget-title h2 {
     font-size: 48px;
     font-weight: 700;
-    color: white;
-    font-family: 'Raleway', sans-serif;
+    color: var(--primary-color)
 }
 
 .leaders {
