@@ -171,7 +171,7 @@ section.experience-section {
     }
 
     .carousel-item {
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -237,7 +237,7 @@ section.experience-section {
     }
 
     .carousel-item {
-        height: 400px;
+        height: 500px;
     }
 }
 
@@ -307,10 +307,18 @@ section.experience-section {
 }
 
 .carousel-img {
-    opacity: 0.8;
+    opacity: 1;
     background-color: rgba(0, 5, 49, .55);
+    height: 100%;
 }
 
 .slider {
     margin-bottom: 50px;
+}
+
+.blend {
+    width: 100%;
+    background-color: rgba(0, 5, 49, .55);
+    position: absolute;
+    height: 100%;
 }

@@ -37,21 +37,35 @@ body {
 
 @media only screen and (min-width: 300px) and (max-width: 499px) {
     .navbar-brand {
-        width: 70%;
+        width: 40%;
+        text-align: center;
     }
 
     .copryright {
         margin-bottom: 10px;
+    }
+
+    .navbar-img {
+        width: 100%;
+    }
+
+    .menu {
+        width: 20%;
     }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 949px) {
     .navbar-brand {
-        width: 70%;
+        width: 50%;
+        text-align: center;
     }
 
     .copryright {
         margin-bottom: 10px;
+    }
+
+    .navbar-img {
+        width: 50%;
     }
 }
 
@@ -62,6 +76,10 @@ body {
 
     .nav-item {
         margin-right: 20px;
+    }
+
+    .navbar-img {
+        width: 50%;
     }
 
 }

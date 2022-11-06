@@ -23,7 +23,7 @@
 
 <body>
     <header class="header">
-        <div class="top-bar">
+        <div class="top-bar d-none d-lg-block">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-5">
@@ -37,19 +37,22 @@
                         <p> <span class="header-icon bi bi-telephone-fill"></span> +91 - 99626 44261</p>
                     </div>
                     <div class="col-12 col-md-6 col-lg-2">
-                        <a class="btn btn-primary btn-small">Join Us Now!</a>
+                        <a class="btn btn-primary">Join Us Now!</a>
                     </div>
                 </div>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="container" style="display: flex; justify-content: flex-start;">
+                <div class="menu">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="Shesh En-Vision"
-                        width="50%"></a>
+                        class="navbar-img"></a>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -63,16 +66,21 @@
                             <a class="nav-link" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="tenders.html">Tenders</a>
                         </li>
                     </ul>
                 </div>
+
+                <div class="d-lg-none">
+                    <a class="btn btn-primary btn-small">Join Us Now!</a>
+                </div>
             </div>
         </nav>
     </header>
+
     <div style="display: flex; justify-content: center; margin-bottom: 20px;">
         <a href="https://www.africau.edu/images/default/sample.pdf" download rel="noopener noreferrer" target="_blank">
             <button class="btn btn-dark">Download</button>
