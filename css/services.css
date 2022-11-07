@@ -38,4 +38,6 @@ section.services-area.services-page.section-padding {
     margin-bottom: 50px;
 }
 
-.more {display: none;}
+.more {
+    display: none;
+}
