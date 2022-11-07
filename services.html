@@ -125,7 +125,7 @@
                                     training services. Additional
                                     capabilities include environmental engineering, sampling, reporting, and laboratory
                                     services.</span></p>
-                            <button onclick="myFunction1()" id="myBtn-1">Read more</button>
+                            <button class="btn btn-primary" onclick="myFunction1()" id="myBtn-1">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                                     training, and communication with
                                     the governmental or local authorities.</span>
                             </p>
-                            <button onclick="myFunction2()" id="myBtn-2">Read more</button>
+                            <button class="btn btn-primary" onclick="myFunction2()" id="myBtn-2">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                                 plants are highly demanded in the market. Multiple Effect Evaporator System are
                                 extensively catering to the needs of
                                 textile, pharmaceutical, automobile, chemical, and dyeing industries.</span></p>
-                                <button onclick="myFunction3()" id="myBtn-3">Read more</button>
+                                <button class="btn btn-primary" onclick="myFunction3()" id="myBtn-3">Read more</button>
                             </div>
                     </div>
                 </div>
@@ -218,12 +218,13 @@
                             <p>Chemical Oxygen Demand (COD) and Biological Oxygen demand (BOD) are the two main
                                 characteristic properties that indicate
                                 the strength of sewage. Both the parameters test the oxygen-demanding strength of the
-                                wastewaters.</p>
-                            <p>BOD measures the amount of oxygen required by the aerobic organisms to decompose organic
+                                wastewaters.
+                                <span id="dots-4">...</span><span class="more" id="more-4">BOD measures the amount of oxygen required by the aerobic organisms to decompose organic
                                 matter and COD measures the
                                 oxygen required to decompose organic and inorganic constituents present in the
                                 wastewater by chemical reaction. Hence,
-                                the value of COD is greater than BOD.</p>
+                                the value of COD is greater than BOD.</span></p>
+                                <button class="btn btn-primary" onclick="myFunction4()" id="myBtn-4">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -381,6 +382,21 @@
             var dots = document.getElementById("dots-2");
             var moreText = document.getElementById("more-2");
             var btnText = document.getElementById("myBtn-2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction4() {
+            var dots = document.getElementById("dots-4");
+            var moreText = document.getElementById("more-4");
+            var btnText = document.getElementById("myBtn-4");
 
             if (dots.style.display === "none") {
                 dots.style.display = "inline";
