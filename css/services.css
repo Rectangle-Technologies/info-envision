@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -16,6 +17,7 @@
 
     .single-services {
         margin-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -36,6 +38,7 @@ section.services-area.services-page.section-padding {
 
 .single-services {
     margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .more {
