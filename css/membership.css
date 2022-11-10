@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #435e45;
+    --secondary-color: #198c3a;
+}
+
+.paget-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.paget-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 767px) {
+    .paget-title h2 {
+        font-size: 36px;
+    }
+}
+
+.content {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin: 10px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .card p {
+        font-size: 14px;
+    }
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        font-size: 14px;
+    }
+}
+
+.button {
+    text-align: center;
+}

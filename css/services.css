@@ -10,6 +10,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.paget-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
 @media only screen and (max-width: 767px) {
     .paget-title h2 {
         font-size: 36px;
@@ -19,12 +25,6 @@
         margin-bottom: 30px;
         font-family: 'Raleway', sans-serif;
     }
-}
-
-.paget-title h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--primary-color);
 }
 
 section.services-area.services-page.section-padding {
