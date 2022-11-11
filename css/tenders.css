@@ -1,3 +1,28 @@
+:root {
+    --primary-color: #435e45;
+    --secondary-color: #198c3a;
+}
+
+.paget-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.paget-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 767px) {
+    .paget-title h2 {
+        font-size: 36px;
+    }
+}
+
 .content {
     font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
