@@ -216,3 +216,12 @@ a {
         font-size: 15px;
     }
 }
+
+.copyright-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #999999;
+}

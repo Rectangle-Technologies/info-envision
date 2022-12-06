@@ -62,3 +62,31 @@
 .font-size-main {
     font-size: 60px;
 }
+
+.content {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+    .content {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 949px) {
+    .content {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .content {
+        font-size: 20px;
+    }
+}
+
+.qr {
+    margin-bottom: 20px;
+}
